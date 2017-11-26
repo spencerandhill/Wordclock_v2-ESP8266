@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LR Wordclock - ESP8266 Wifi-SETUP</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+  <header class="navbar navbar-default navbar-static-top" id="top" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/">LR Wordclock - ESP8266 Wifi-SETUP</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label class="col-sm-2 control-label">SSID</label>
+		<div class="col-sm-2">
+			<input type="text" class="form-control text-center" id="wifiSSIDField" value="">
+		</div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-2 control-label">Password</label>
+		<div class="col-sm-2">
+			<input type="text" class="form-control text-center" id="wifiPasswordField" value="">
+		</div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-2 col-sm-offset-2">
+          <div class="btn-group" role="group" aria-label="Save">
+            <button type="button" class="btn btn-default" id="btnSaveWifiSettings">Save</button>
+            <button type="button" class="btn btn-default" id="btnResetWifiSettings">Reset</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="js/scripts.js"></script>        
+</body>
+</html>
